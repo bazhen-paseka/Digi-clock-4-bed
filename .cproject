@@ -38,6 +38,7 @@
 								<option id="gnu.c.compiler.option.debugging.level.1612715262" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.681890904" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="../Core/Inc"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/ds3231_sm}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/max7219_4x_dot_sm}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Drivers/i2c_TechMaker_sm}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;E:\0_GitLab\Digi-clock-4-bed\Drivers\Local_config&quot;"/>
