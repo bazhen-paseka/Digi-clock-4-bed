@@ -28,6 +28,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+	#include "digital_clock_for_bedroom_sm.h"
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,12 +97,15 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
+  	  Digit_clock_Init ();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  Digit_clock_Main() ;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

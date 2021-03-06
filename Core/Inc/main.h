@@ -58,6 +58,9 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define DS3231_ALARM_Pin GPIO_PIN_0
+#define DS3231_ALARM_GPIO_Port GPIOA
+#define DS3231_ALARM_EXTI_IRQn EXTI0_IRQn
 #define SPI1_CS_Pin GPIO_PIN_6
 #define SPI1_CS_GPIO_Port GPIOA
 #define LED_RED_Pin GPIO_PIN_0
