@@ -5,16 +5,28 @@
  *  11:24:00
  *      Author: Bazhen Levkovets
  */
-
-#ifndef MAX7219_LOCAL_CONFIG_INCLUDED_H_
-#define MAX7219_LOCAL_CONFIG_INCLUDED_H_
-
+	#ifndef MAX7219_LOCAL_CONFIG_INCLUDED_H_
+	#define MAX7219_LOCAL_CONFIG_INCLUDED_H_
+/*
+**************************************************************************
+*								INCLUDE FILES
+**************************************************************************
+*/
+	#include "max7219_4x_dot_sm.h"
 /*
 **************************************************************************
 *								    DEFINES
 **************************************************************************
 */
-
-	#define ADR_I2C_DS3231 0x68
+	#define ADR_I2C_DS3231 	0x68
+	#define INTENSITY		Intensity_1
+	#define DECODE_MODE		NoDecode
+	#define DISPLAY_DIGIT	DisplayDigit_0_7
+	#define WORK_MODE		NormalOperation
+/*
+**************************************************************************
+*								     END
+**************************************************************************
+*/
 
 #endif /* MAX7219_LOCAL_CONFIG_INCLUDED_H_ */
