@@ -25,7 +25,7 @@
 	#define WORK_MODE		NormalOperation
 
 	#define	RANDOM_DOT
-	#define	RANDOM_ERROR_QNT	2
+	#define	RANDOM_ERROR_QNT	1
 /*
 **************************************************************************
 *								     END
