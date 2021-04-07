@@ -19,6 +19,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "i2c.h"
 #include "iwdg.h"
 #include "rtc.h"
@@ -97,6 +98,7 @@ int main(void)
   MX_SPI1_Init();
   MX_USART1_UART_Init();
   MX_IWDG_Init();
+  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
 
   	  Digit_clock_Init ();
@@ -153,8 +155,9 @@ void SystemClock_Config(void)
   {
     Error_Handler();
   }
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_RTC;
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_RTC|RCC_PERIPHCLK_ADC;
   PeriphClkInit.RTCClockSelection = RCC_RTCCLKSOURCE_LSI;
+  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV8;
   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
     Error_Handler();

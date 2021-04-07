@@ -23,6 +23,9 @@
 	#define DECODE_MODE		NoDecode
 	#define DISPLAY_DIGIT	DisplayDigit_0_7
 	#define WORK_MODE		NormalOperation
+
+	#define	RANDOM_DOT
+	#define	RANDOM_ERROR_QNT	2
 /*
 **************************************************************************
 *								     END
