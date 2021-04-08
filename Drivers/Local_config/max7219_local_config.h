@@ -19,10 +19,13 @@
 **************************************************************************
 */
 	#define ADR_I2C_DS3231 	0x68
-	#define INTENSITY		Intensity_1
+	#define INTENSITY		Intensity_5
 	#define DECODE_MODE		NoDecode
 	#define DISPLAY_DIGIT	DisplayDigit_0_7
 	#define WORK_MODE		NormalOperation
+
+	#define	RANDOM_DOT
+	#define	RANDOM_ERROR_QNT	1
 /*
 **************************************************************************
 *								     END
