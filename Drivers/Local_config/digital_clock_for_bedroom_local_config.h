@@ -11,5 +11,8 @@
 	#define	BUTTON_DELAY	100
 	#define	BEEPER_DELAY	 50
 
+	#define	ALARM_PERIOD_HOUR	 0
+	#define	ALARM_PERIOD_MIN	 20
+
 //******************************************************************************************
 #endif	//	DIGITAL_CLOCK_FOR_BEDROOM_CONFIG_INCLUDED_H
