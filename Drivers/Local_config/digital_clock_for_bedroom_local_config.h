@@ -14,5 +14,9 @@
 	#define	ALARM_PERIOD_HOUR	 0
 	#define	ALARM_PERIOD_MIN	 20
 
+	#define LIGHT_LEVEL_0	3500
+	#define LIGHT_LEVEL_1	3600
+	#define LIGHT_LEVEL_2	3700
+
 //******************************************************************************************
 #endif	//	DIGITAL_CLOCK_FOR_BEDROOM_CONFIG_INCLUDED_H
